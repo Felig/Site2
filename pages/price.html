@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+		<title>Прайс</title>
+		<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+		<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+		<link rel="stylesheet" href="../libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="../css/fonts.css">
+		<link rel="stylesheet" href="../css/style.css">
+	
+  </head>
+  <body bgcolor="#fbfba8">
+  <div class="preloader"></div>
+
+	<header>
+		<div class="container clearfix">
+			
+			<nav class="maian_mnu clearfix">
+				
+				<ul>
+					<li><a href="../index.html" class="home">Главная</a></li>
+					<li><a href="../pages/clients.html" class="registr">Запись</a></li>
+				</ul>
+				
+			</nav>			
+		</div>
+		
+	</header>
+
+  
+	<table class="tabl">
+	<tr><td colspan="5" align="center"><h3>Расчет стоимости занятий</h3></td></tr>
+	<form name="myForm">
+		<tr><td colspan="2"></td><td colspan="3">Продолжительность занятий:</td></tr>	
+		
+		<tr>
+			<td colspan="2"></td>
+			<td>Разовое<br/><input name="dl" type="radio" checked></td>
+			<td>Неделя<br/><input name="dl" type="radio"</td>
+			<td>Месяц<br/><input name="dl" type="radio"</td>
+		</tr>	
+		
+		<tr>
+			<td><input type="checkbox" name="color"></td>
+			<td>Игры (1.5 часа в день)</td>
+			<td><input  class="x" type="text" name="d1" value="15" readonly></td>
+			<td><input  class="x" type="text" name="s1"  value="50" readonly></td>
+			<td><input  class="x" type="text" name="k1"  value="150" readonly></td>
+		</tr>
+		
+		<tr>
+			<td><input type="checkbox" name="cut"></td>
+			<td>Обучение (1 час в день)</td>
+			<td><input  class="x" type="text" name="d2"  value="15" readonly></td>
+			<td><input class="x"  type="text" name="s2" value="50" readonly></td>
+			<td><input  class="x" type="text" name="k2"  value="150" readonly></td>
+		</tr>
+		
+		<tr>
+			<td><input type="checkbox" name="fler"></td>
+			<td>Игры и обучение (2.5 часа в день)</td>
+			<td><input  class="x" type="text" name="d3"  value="25" readonly></td>
+			<td><input class="x"  type="text" name="s3" value="85" readonly></td>
+			<td><input class="x" type="text" name="k3"  value="250" readonly></td>
+		</tr>
+		
+		<tr>
+			<td colspan="3" align="center"><input class="sub_button"  type="button"  value="Рассчитать"  onclick="calc()"></td>
+			<td colspan="2"><input type="text" id="itog" name="itog" readonly></td>
+		</tr>	
+	</form>
+	</table>
+</body>
+
+<script src="../js/price_and_clients.js"></script>
+<script src="../libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="../libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="../libs/scroll/jquery.scroll.min.js"></script>
+<script src="../libs/owl-carousel/owl.carousel.min.js"></script>
+<script src="../libs/countdown/jquery.plugin.js"></script>
+<script src="../libs/countdown/jquery.countdown.min.js"></script>
+<script src="../libs/countdown/jquery.countdown-ru.js"></script>
+<script src="../libs/landing-nav/navigation.js"></script>
+</html>

@@ -1,0 +1,552 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+}
+
+
+.container img {
+	width: 100%;
+	max-width: 480px;
+}
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix:after {
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+}
+
+header, main, footer {
+	background-color: #fbfba8;
+	margin-bottom: 20px;
+
+}
+
+header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.logo {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	float: left;
+	margin-bottom: 20px;
+	background-color: orange;
+	color: #fff;
+	display: flex;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	transition: .2s;
+
+}
+
+.logo:hover {
+	transform: scale(1.05);
+}
+
+.logo p {
+	margin-top: -10px;
+	position: relative;
+	padding: 20px;
+	padding-bottom: 70px;
+	border-radius: 50%;
+	box-shadow: 0 20px 0px rgb(255,255,255);
+	font-size: 30px;
+	font-family: "NautilusPompiliusRegular";
+}
+
+nav {
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px;
+	border-radius: 6px;
+	transition: .2s;
+}
+
+nav li a:hover {
+	transform: translatey(5px);
+}
+
+.main_mnu_button {
+	float: left;
+	background-color: transparent;
+	border: medium none;
+	font-size: 26px;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	background-color: orange;
+	border-radius: 10em;
+	margin-bottom: 5px;
+}
+
+
+nav a.home {
+	background: #97d47a;
+	font-family: 'RussoOneRegular';
+}
+
+nav a.services {
+	background: #f7aa33;
+	font-family: 'RussoOneRegular';
+}
+
+nav a.registr {
+	background: #7ad4c0;
+	font-family: 'RussoOneRegular';
+}
+
+nav a.contacts {
+	background: #5F50B7;
+	font-family: 'RussoOneRegular';
+}
+
+.logo2 {
+	float: left;
+}
+
+.logo2 p {
+	margin-top: -10px;
+	position: relative;
+	padding: 20px;
+	font-size: 30px;
+	color: #3fa71e;
+	font-family: "NautilusPompiliusRegular";
+}
+
+.kids {
+	position: relative;
+}
+
+.top_mobile {
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 3px dashed #da5959;
+	border-radius: 6px;
+	background-color: rgba(201, 220, 118, 0.5);
+	max-width: 300px;
+	transition: .2s;
+}
+
+.top_mobile:hover {
+	transform: scale(1.05);
+}
+
+.top_mobile p {	
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	color: #3fa71e;
+	font-family: 'NeuchaRegular';
+}
+
+.reg {
+	position: absolute;
+	top: 0;
+	left: 35%;
+	text-align: center;
+	padding: 20px 10px;
+	border: 3px dashed #da5959;
+	border-radius: 6px;
+	background-color: rgba(201, 220, 118, 0.5);
+	transition: .2s;
+}
+
+.reg:hover {
+	transform: scale(1.05);
+}
+
+.reg p {	
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	color: #3fa71e;
+		font-family: 'NeuchaRegular';
+}
+
+.kids img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+/* Основная секция */
+
+main {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.main_item {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 9px;
+	text-align: center;
+	background-color: #555;
+	font-size: 18px;
+	padding-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'NeuchaRegular';
+	margin: 10px auto;
+}
+
+.main_item h2 {
+	margin-bottom: 10px;
+}
+
+.main_item p {
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+
+.main_item button {
+	padding: 10px 15px;
+	border-radius: 16px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.main_item button:hover {
+	box-shadow: 0px 0 20px rgba(155,0,0,.5);
+}
+
+.gallery {
+		background-color: #f7aa33;
+		width: 100%;
+}
+
+.gallery button {
+	color: #f7aa33;
+}
+
+.reviews {
+	background-color: #7ad4c0;
+	width: 100%;
+}
+
+.reviews button {
+	color: #7ad4c0;
+}
+
+.minigame {
+	background-color: #97d47a;
+	width: 100%;
+}
+
+.minigame button {
+	color: #97d47a;
+}
+
+.prime {
+	background-color: #5F50B7;
+	width: 100%;
+}
+
+.prime button {
+	color: #5F50B7;
+}
+
+.prime img {
+	width: 100%;
+	max-width: 480px;
+}
+
+
+/* ФУТЕР */
+
+footer {
+	padding: 20px 0;
+}
+
+
+.copy {
+	text-align: right;
+	font-family: 'NeuchaRegular';
+	font-size: 18px;
+
+}
+
+.icons {
+	padding: 0;
+}
+
+.icons li {
+	list-style-type: none;
+}
+
+.icons li a {
+	color: #777;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+.icons li a.mail:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url(../img/mail.png) no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+}
+
+.icons li a.settings:before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url(../img/settings.png) no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+}
+
+
+.slider_container img {
+	max-height: 200px;
+}
+.slider_container {
+	position: relative;
+
+}
+.next_button, .prev_button {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10em;
+	color: #fff;
+	cursor: pointer;
+	font-size: 46px;
+	padding: 0 25px;
+	position: absolute;
+	top: 40%;
+	z-index: 10;
+}
+.next_button {
+	right: 20px;
+}
+.prev_button {
+	left: 20px;
+}
+
+
+.tabl{
+	margin: auto;
+	margin-top: 40px;
+	background: orange;
+	padding:5px;
+	border-radius: 16px;
+	color: white;
+	font-family: 'RussoOneRegular';}
+.x,#itog{	
+	width:70px;
+	border:0px;
+	text-align:center;}
+#itog{
+	background:yellow;
+	color:red;
+	}
+.sub_button {
+	margin-top: 20px;
+	padding: 10px 15px;
+	border-radius: 16px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .2s;
+	color: orange;
+	font-family: 'NeuchaRegular';
+	}
+
+.sub_button:hover {
+	box-shadow: 0px 0 20px rgba(155,0,0,.5);
+	}
+
+
+/*Прелоудер*/
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: #fff;
+	background-image: url(../img/preloader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Видео */
+.video1 {
+	width: 100%;
+	max-width: 480px;
+	padding: 15px;
+}
+
+
+/* Игра-слайдер*/
+
+
+.game1 {
+	width: 100%;
+	padding: 15px;
+}
+
+#maindiv {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	outline: none;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#scr {
+	border: 0;
+	padding: 0;
+	margin: 0px 0;
+	outline: none;
+	display: inline-block;
+	height: 106px;
+	width: 250px;
+	background-position: top;
+	background: url("../img/game/1.jpg") no-repeat;
+}
+
+#scr1  {
+	border: 0;
+	padding: 0;
+	margin: 0 0 0px 0;	
+	outline: none;
+	display: inline-block;
+	height: 106px;
+	width: 250px;
+	background-position: top;
+	background: url("../img/game/2.jpg") no-repeat;
+}
+
+#scr2  {
+	border: 0;
+	padding: 0;
+	margin: 0;	
+	outline: none;
+	display: inline-block;
+	height: 106px;
+	width: 250px;
+	background-position: top;
+	background: url("../img/game/3.jpg") no-repeat;
+}
+
+
+#button1 {
+	display: inline-block;
+}
+
+.button2 {
+	float: left;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+	color: black;
+	background: #ffffff;
+	background-position: center;
+}
+
+
+
+#upbutton {
+    /*     background: url("img/up2.png") no-repeat top center;    */
+    height: 50px;
+    width: 50px;
+    bottom: 40px; 
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 999;
+    }
+
+	#upbutton img {
+	opacity: 0.75;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	}
+  
+	#upbutton img:hover {
+	opacity: 1;
+	}
+
+
+
+/* Аудио */
+
+.animals_img {
+	display: inline-block;
+	width: 100%;
+	max-width: 240px;
+	padding: 0 15px;
+}
+
+.bird,.be,.gav,.mu,.murr {
+	filter: blur(0.6px);
+	filter: drop-shadow(0px 0px 4px #fff);
+	transition: 0.7s;
+}
+.bird:hover,.be:hover,.gav:hover,.mu:hover,.murr:hover {
+	cursor: pointer;
+	filter: drop-shadow(0px 0px 15px #fff);
+	transition: 0.7s;
+}
